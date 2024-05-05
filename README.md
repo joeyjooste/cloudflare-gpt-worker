@@ -1,8 +1,1 @@
-```
-npm install
-npm run dev
-```
-
-```
-npm run deploy
-```
+Usable on https://cloudflare-gpt-worker.joeyjjooste.workers.dev/
