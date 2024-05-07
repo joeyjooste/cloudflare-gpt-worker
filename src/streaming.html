@@ -27,7 +27,6 @@
       }
 
       div#response {
-        position: fixed;
         top: 33%;
         width: 50%;
       }
@@ -41,6 +40,15 @@
         width: 90%;
       }
 
+      div#output-border{
+        border: 2px solid grey;
+        border-radius: 16px;
+        margin: 50px;
+        padding: 50px;
+        width: 80%;
+        height: 60vh; 
+      }
+
       form#query-form input { 
         flex: 1;
         padding: 5px;
@@ -50,12 +58,12 @@
   <body>
     <div id="content">
       <div id="header">
-        <h1>Cloudflare AI - Streaming</h1>
-        <p><a href="/b">(Blocking)</a></p>
+        <h1>Currently Using Llama3 8B</h1>
+        <p><a href="/b">Click here to turn off streaming</a></p>
       </div>
-
-      <div id="response"></div>
-
+      <div id="output-border">
+        <div id="response"></div>
+      </div>
       <form id="query-form">
         <input 
           autofocus
